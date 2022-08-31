@@ -5,6 +5,13 @@ The following binaries are produced by SQLite sources available in the [Public D
 
 The built binaries found in this repository are licensed under MIT.
 
-These binaries are built from the sources available Totalpave's [SQLite](https://github.com/totalpaveinc/sqlite), which includes the original SQLite sources, with additional JNI wrappers provided by Total Pave Inc.
+These binaries are built from the sources available Totalpave's [SQLite](https://github.com/totalpaveinc/sqlite) repository, which includes the original SQLite sources, with additional JNI wrappers provided by Total Pave Inc.
 
 Refer to the sources [README](https://github.com/totalpaveinc/sqlite/blob/master/README.md) for more information.
+
+## Runtime dependencies
+
+For android, any application that uses this AAR file needs to include libc++_shared.so.
+
+If your application doesn't already include this shared library, [android-libcxx](https://github.com/totalpaveinc/android-libcxx)
+AAR Library can be imported, which will allow all linked native libraries to use a single source of libc++.
