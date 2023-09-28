@@ -1,6 +1,10 @@
 
 # SQLite Binaries
 
+## Deprecation Notice
+
+This repo is no longer updated. Built releases are now provided through TotalPave's SQLite [Releases](https://github.com/totalpaveinc/sqlite/releases).
+
 The following binaries are produced by SQLite sources available in the [Public Domain](https://www.sqlite.org/copyright.html)
 
 The built binaries found in this repository are licensed under MIT.
